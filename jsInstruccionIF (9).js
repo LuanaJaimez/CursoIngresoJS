@@ -5,7 +5,7 @@ function mostrar()
 	
 	numero = 10
 
-	alert(Math.random ()* numero);
+	alert(Math.ceil(Math.random ()* numero));
 
 	/*El prentesis abarca desde el 0 y, si no lo multiplica por nada,
 	hasta el uno, pero no lo incluye*/
